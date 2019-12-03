@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-repeat: ;
+	background-image: ;
+	background-color: ;
+	padding-top: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 965px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p {
+	font-size: 24px;	
+}
+
+.board {
+	border: 2px solid black;
+}
+
+#neat {
+	color: #000000;
+	font-size: 24px;
+}
+
+#button {
+	color: white;
+	background-color: black;
+	border: solid 2px white;
+}
+
+.click-me {
+	padding: 5px 10px 5px 10px;	
+}
+
+.click-us {
+	padding: 5px 24.5px 5px 20px;	
+}
+
+header {
+	width: 965px;
+
+
+
+
+	margin-right: ;
+	margin-left: ;
+	height: 100px;
+	background-color: #FFF;
+}
+
+figure {
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 110px;
+	height: 110px;
+}
+
+#icon {
+	width: 110px;
+	height: 110px;
+}
+
+#title {
+	background-color: #FDC526;
+	width: 700px;
+	height: 75px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 35px;
+	
+}
+
+section {
+	background-color: #FDC526;
+	width: 250px;
+	height: 400px;
+	margin-top: 25px;
+	margin-left: 5px;
+	float: left;
+}
+
+footer {
+	width: 770px;
+	height: 100px;
+	float: right;
+	background-color: #FDC526;
+	margin-top: 20px;
+	margin-right: 7px;
+}
+
+nav {
+	background-color: #000;
+	float: left;
+	width: 475px;
+	height: 30px;
+	margin-left: 155px;
+}
+
+td {
+	color: white;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-color: white;
+	border: solid;
+	border-width: 2px;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: normal;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+}
+
+#button:hover {
+	text-decoration: none;	
+}
+
+#name {
+	margin: 10px;
+}
+
+.text {
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+#computer {
+	margin-top: 20px;
+	margin-left: 45px;
+}
