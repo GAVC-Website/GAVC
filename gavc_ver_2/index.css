@@ -130,7 +130,7 @@ td {
 
 h1 {
 	color: black;
-	font-family: "Comic Sans MS", cursive;
+	font-family: "Lucida Console", Monaco, monospace;
 	font-weight: normal;
 }
 
@@ -252,4 +252,3 @@ hr {
   -webkit-transform: skew(-10deg) translate3d(50%,0,0);
   transform: skew(-10deg) translate3d(50%,0,0);
 }
-
