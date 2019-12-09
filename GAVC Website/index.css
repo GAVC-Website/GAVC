@@ -18,6 +18,10 @@ body {
 	border: 2px solid black;
 }
 
+html {
+	cursor: url(silverstreaks_2.cur), default;
+}
+
 #wrapper {
 	width: 965px;
 	margin-right: auto;
