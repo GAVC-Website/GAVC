@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.content {
+	background-color: #FDC526;
+	width: 780px;
+	height: 600px;
+	margin-top: 25px;
+}
+
 body {
 	background-repeat: ;
 	background-image: ;
@@ -34,7 +41,7 @@ p {
 
 .board {
 	border: 2px solid black;
-	
+	padding-bottom: 5px;
 }
 
 #neat {
@@ -67,6 +74,7 @@ figure {
 	margin-top: 25px;
 	width: 110px;
 	height: 110px;
+	margin-left: 5px;
 }
 
 #icon {
@@ -76,15 +84,16 @@ figure {
 
 #title {
 	background-color: #FDC526;
-	width: 750px;
+	width: 782px;
 	height: 75px;
 	float: left;
 	margin-top: 35px;
+	margin-bottom: 10px;
 	
 }
 
 footer {
-	width: 785px;
+	width: 780px;
 	height: 100px;
 	float: right;
 	background-color: #FDC526;
@@ -95,13 +104,10 @@ footer {
 
 nav {
 	width: 750px;
-	margin-right: ;
 	margin-left: 200px;
 	height: 75px;
 	background-color: #FFF;
-	float: left;
 	margin-right: 50px;
-	color: #000;
 }
 
 td {
@@ -148,6 +154,8 @@ a:hover {
 hr {
 	border: 1px solid black;
 }
+
+/* Dual Button CSS */
 
 .dualcolorbutton{
  	border: 1px solid navy;
