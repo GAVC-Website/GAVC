@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<meta name="description" content="Classroom for multiple classes to get information.">
+<meta name="keywords" content="Classroom, Info, Information, Class, Classes, Web Development, VR class, Media">
+<link href="index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<style type="text/css">
+
+#myslideshow{ /*sample CSS for demo*/
+border:2px solid black;
+}
+
+</style>
+
+<script src="translucentslideshow.js" type="text/javascript">
+
+/***********************************************
+* Translucent slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow1=new translideshow({
+	wrapperid: "myslideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [700, 240], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["images/arvr.jpg"], //["image_path", "optional_link", "optional_target"]
+		["images/fun.jpg"],
+		["images/vrtventures.jpg"],
+		["http://i31.tinypic.com/119w28m.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 400 //transition duration (milliseconds)
+})
+
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+	<figure class="board"><a href="index.html"><img src="images/ghs.jpg" width="122" height="110" id="icon" /></a></figure>
+    
+     <a href="index.html"><div id="title" class="board">
+    <center><h1>AR/VR</h1>
+    </center></div></a>
+</header>
+
+<nav>
+<a href="#" class="dualcolorbutton dualslide color"><span>Home</span></a>
+<a href="#" class="dualcolorbutton dualslide color"><span>Web</span></a> 
+<a href="#" class="dualcolorbutton dualslide color"><span>App</span></a> 
+<a href="arvr.html" class="dualcolorbutton dualslide color"><span>AR/VR</span></a>
+<a href="#" class="dualcolorbutton dualslide color"><span>Drones</span></a>
+<a href="#" class="dualcolorbutton dualslide color"><span>3D Printing</span></a>
+<a href="#" class="dualcolorbutton dualslide color"><span>Robotics</span></a>
+	
+</nav>
+
+<section class="board" style="width: 704px; height: 650px; float: right; background-color: #FFFFFF; margin-top: 20px; margin-bottom: 20px; margin-right: 75px;">
+
+<img src="images/oculus.png" height="200px" width="350px"/>
+<img src="images/vr.jpg" height="200px" width="350px"/>
+<img src="images/ar.jpg" height="200px" width="350px" />
+<img src="images/idk.jpg" height="200px" width="350px" />
+
+<div id="myslideshow"></div>
+
+<a href="javascript:translideshow1.navigate('back')" style="margin-right:190px;"></a>  <a href="javascript:translideshow1.navigate('forth')"></a>
+<br />
+<b></b><br />
+<a href="javascript:translideshow1.navigate(0)"></a>  <a href="javascript:translideshow1.navigate(1)"></a>  <a href="javascript:translideshow1.navigate(2)"></a> <a href="javascript:translideshow1.navigate(3)"></a> 
+</section>
+<footer class="board">
+<center>
+	<p>
+		<a href="index.html" id="neat">Home</a> | <a href="csi.html" id="neat" target="_blank">Web</a> | <a href="block2.html" id="neat" target="_blank">App</a> | <a href="arvr.html" id="neat" target="_blank">AR/VR</a> | <a href="csi.html" id="neat" target="_blank">Drones</a> | <a href="csi.html" id="neat" target="_blank">3D Printing</a> | <a href="csi.html" id="neat" target="_blank">Robotics</a></p>
+<p style="font-size: 16px;">Galesburg Area Vocational Center
+	</p>
+</center>
+</footer>
+
+</div>
+</body>
+
+</html>
