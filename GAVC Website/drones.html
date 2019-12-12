@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<meta name="description" content="Classroom for multiple classes to get information.">
+<meta name="keywords" content="Classroom, Info, Information, Class, Classes, Web Development, VR class, Media">
+<link href="index.css" rel="stylesheet" type="text/css">
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<style type="text/css">
+
+#slideshow{ /*sample CSS for demo*/
+border:2px solid black;
+}
+
+</style>
+
+<script src="translucentslideshow.js" type="text/javascript">
+
+/***********************************************
+* Translucent slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow1=new translideshow({
+	wrapperid: "slideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [325, 300], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["images/circuit.jpg"], //["image_path", "optional_link", "optional_target"]
+		["images/testing.jpg"],
+		["images/flying.jpg"],
+		["images/control.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:100, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 400 //transition duration (milliseconds)
+})
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+	<figure class="board"><a href="index.html"><img src="images/ghs.jpg" width="122" height="110" id="icon" /></a></figure>
+    
+     <a href="index.html"><div id="title" class="board">
+    <center><h1>GAVC Technology</h1>
+    </center></div></a>
+</header>
+
+<nav>
+<a href="index.html" class="dualcolorbutton dualslide color"><span>Home</span></a>
+<a href="#" class="dualcolorbutton dualslide color" target="_blank"><span>Web</span></a> 
+<a href="#" class="dualcolorbutton dualslide color" target="_blank"><span>App</span></a> 
+<a href="#" class="dualcolorbutton dualslide color" target="_blank"><span>AR/VR</span></a>
+<a href="drones.html" class="dualcolorbutton dualslide color" target="_blank"><span>Drones</span></a>
+<a href="#" class="dualcolorbutton dualslide color" target="_blank"><span>3D Printing</span></a>
+<a href="#" class="dualcolorbutton dualslide color" target="_blank"><span>Robotics</span></a>
+</nav>
+
+<section style="float: left; margin-left: 160px;" class="board content">
+    
+    <section class="page-header">
+    	<h1>Drones</h1>
+	</section>
+    <hr />
+    <section class="text">
+    	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    </section>
+    
+    <div id="slideshow"></div>
+    
+    <section class="text" style="width: 700px; margin-top: 15px;">
+    	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    </section>
+    
+</section>
+
+<footer class="board">
+<center>
+	<p>
+		<a href="index.html" id="neat">Home</a> | <a href="csi.html" id="neat" target="_blank">Web</a> | <a href="block2.html" id="neat" target="_blank">App</a> | <a href="block4.html" id="neat" target="_blank">AR/VR</a> | <a href="drones.html" id="neat" target="_blank">Drones</a> | <a href="csi.html" id="neat" target="_blank">3D Printing</a> | <a href="csi.html" id="neat" target="_blank">Robotics</a></p>
+<p style="font-size: 16px;">Galesburg Area Vocational Center
+	</p>
+</center>
+</footer>
+
+</div>
+</body>
+
+</html>
+
