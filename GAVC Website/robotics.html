@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html id="robotics-html">
+<head>
+<meta charset="UTF-8">
+
+<title>Robotics Website</title><br>
+
+<meta name="description" content="Classroom for multiple classes to get information.">
+<meta name="keywords" content="Classroom, Info, Information, Class, Classes, Web Development, VR class, Media">
+<link href="index.css" rel="stylesheet" type="text/css">
+
+
+
+
+<!--Slideshow JS-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<style type="text/css">
+
+#myslideshow{ /*sample CSS for demo*/
+border:2px solid black;
+}
+
+</style>
+
+<script src="translucentslideshow.js" type="text/javascript">
+
+/***********************************************
+* Translucent slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow1=new translideshow({
+	wrapperid: "lego-slideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 250], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["robotics-images/lego1.jpg"], //["image_path", "optional_link", "optional_target"]
+		["robotics-images/lego2.jpg"],
+		["robotics-images/lego3.jpg"],
+		["robotics-images/lego4.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 400 //transition duration (milliseconds)
+})
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow2=new translideshow({
+	wrapperid: "rpi-slideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 250], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["robotics-images/rpi1.jpg"], //["image_path", "optional_link", "optional_target"]
+		["robotics-images/rpi2.jpg"],
+		["robotics-images/rpi3.jpg"],
+		["robotics-images/rpi4.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 400 //transition duration (milliseconds)
+})
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow3=new translideshow({
+	wrapperid: "box-slideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 250], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["robotics-images/box1.jpg"], //["image_path", "optional_link", "optional_target"]
+		["robotics-images/box2.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 400 //transition duration (milliseconds)
+})
+
+</script>
+
+</head>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+	<figure class="board"><a href="index.html"><img src="images/ghs.jpg" width="122" height="110" id="icon" /></a></figure>
+    
+     <a href="index.html"><div id="title" class="board">
+    <center><h1>GAVC Technology</h1>
+    </center></div></a>
+</header>
+
+<nav>
+    <a href="index.html" class="dualcolorbutton dualslide color"><span>Home</span></a>
+    <a href="#" class="dualcolorbutton dualslide color"><span>Web</span></a> 
+    <a href="#" class="dualcolorbutton dualslide color"><span>App</span></a> 
+    <a href="#" class="dualcolorbutton dualslide color"><span>AR/VR</span></a>
+    <a href="#" class="dualcolorbutton dualslide color"><span>Drones</span></a>
+    <a href="#" class="dualcolorbutton dualslide color"><span>3D Printing</span></a>
+	<a href="robotics.html" class="dualcolorbutton dualslide color"><span>Robotics</span></a>
+</nav>
+
+<section style="float: left; margin-left: 160px;" class="board content">
+	<div id="slideshow">
+        <div id="lego-slideshow"></div>
+    	
+        <a href="javascript:translideshow1.navigate('back')" style="margin-right:188px;"><</a>  <a href="javascript:translideshow1.navigate('forth')">></a>
+	</div>
+    
+    <div id="slideshow">
+        <div id="rpi-slideshow"></div>
+    	
+        <a href="javascript:translideshow2.navigate('back')" style="margin-right:188px;"><</a>  <a href="javascript:translideshow2.navigate('forth')">></a>
+	</div>
+    
+    <div id="slideshow">
+        <div id="box-slideshow"></div>
+    	
+        <a href="javascript:translideshow3.navigate('back')" style="margin-right:188px;"><</a>  <a href="javascript:translideshow3.navigate('forth')">></a>
+	</div>
+    
+    <div id="caption">
+    	<h4>Lego Mindstorms</h4>
+    </div>
+    
+    <div id="caption">
+    	<h4>Raspberry Pi</h4>
+    </div>
+    
+    <div id="caption">
+    	<h4>Boxes</h4>
+    </div>
+    
+    <a href="https://www.vexrobotics.com" target="_blank"><img src="robotics-images/vex.png" id="img-link"></a>
+
+	<a href="http://www.kirkm.net/robotics" target="_blank"><img src="robotics-images/streaks-robotics.jpg" id="img-link"></a>
+</section>
+
+<section id="links">
+	
+</section>
+
+<footer class="board">
+<center>
+	<p>
+		<a href="index.html" id="neat">Home</a> | <a href="csi.html" id="neat" target="_blank">Web</a> | <a href="block2.html" id="neat" target="_blank">App</a> | <a href="block4.html" id="neat" target="_blank">AR/VR</a> | <a href="csi.html" id="neat" target="_blank">Drones</a> | <a href="csi.html" id="neat" target="_blank">3D Printing</a> | <a href="csi.html" id="neat" target="_blank">Robotics</a></p>
+<p style="font-size: 16px;">Galesburg Area Vocational Center
+	</p>
+</center>
+</footer>
+
+</div>
+</body>
+
+</html>
