@@ -170,16 +170,7 @@ hr {
 	font-size: 18px;
 }
 
-iframe{
-	margin-top: 85px;
-	float: right;
-	margin-right: 30px;
-	width: 300px;
-	height: 200px;
-	border-style: solid;
-	border-color: #000;
-	
-}
+
 
 .model-text{
 	float: right;
@@ -191,14 +182,23 @@ iframe{
 
 #myreel{
 	margin: 25px;
-	margin-top: 100px;
+	margin-top: 0px;
 	border-style: solid;
 	border-color: #000;
+	margin-bottom: 700px;
+	float: left;
 }
 
 
 .back{
 color:black:	
+}
+
+.sketchfab-embed-wrapper{
+	float: right;
+	border-color: #000;
+	margin-bottom: -100px;
+	
 }
 /* Dual Button CSS */
 
