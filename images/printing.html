@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<meta name="description" content="Classroom for multiple classes to get information.">
+<meta name="keywords" content="Classroom, Info, Information, Class, Classes, Web Development, VR class, Media">
+<link href="printing.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<style type="text/css">
+
+#myreel{ /*sample CSS for demo*/
+	border: solid black;
+	border-style: solid;
+}
+
+.paginate{
+width: 330px;
+margin-top:5px;
+font:bold 14px Arial;
+text-align:center;
+}
+
+</style>
+
+<script src="reelslideshow.js" type="text/javascript">
+
+/***********************************************
+* Continuous Reel Slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var firstreel=new reelslideshow({
+	wrapperid: "myreel", //ID of blank DIV on page to house Slideshow
+	dimensions: [300, 220], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["images/newdragonboi.jpg"], //["image_path", "optional_link", "optional_target"]
+		["images/yodaboi.jpg",],
+		["images/robotboi.jpg"],
+		["images/stardestroyerboi.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h", //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 300 //transition duration (milliseconds)
+})
+
+</script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+	<figure class="board"><a href="index.html"><img src="images/ghs.jpg" width="122" height="110" id="icon" /></a></figure>
+    
+     <a href="index.html"><div id="title" class="board">
+    <center><h1>GAVC Technology</h1>
+    </center></div></a>
+</header>
+
+<nav>
+<a href="index.html" class="dualcolorbutton dualslide color"><span>Home</span></a>
+<a href="web-design.html" class="dualcolorbutton dualslide color"><span>Web</span></a> 
+<a href="app-design.html" class="dualcolorbutton dualslide color"><span>App</span></a> 
+<a href="arvr.html" class="dualcolorbutton dualslide color"><span>AR/VR</span></a>
+<a href="drones.html" class="dualcolorbutton dualslide color"><span>Drones</span></a>
+<a href="printing.html" class="dualcolorbutton dualslide color"><span>3D Printing</span></a>
+<a href="#" class="dualcolorbutton dualslide color"><span>Robotics</span></a>
+	
+</nav>
+
+<section style="float: left; margin-left: 160px;" class="board content">
+<h1><span  class="print">3D printing</span></h1>
+<section class="print-text"><p>In this class you'll be learning about what 3D printing is and will be able to create and print your very own 3D models and designs to print out. You'll use a variety of applications to accomplish this, you'll also get to learn useful skills such as how to properly operate  3D printers and also how they function. In 3D printing the possibilities for your creativity are endless!</p></section>
+<!!!!!IFrame!!!!!!!>
+<div class="sketchfab-embed-wrapper">
+    <iframe title="A 3D model" width="300" height="220" src="https://sketchfab.com/models/a340199b2f504896a87d8d4362c8b3bd/embed?autospin=0.2&amp;autostart=1&amp;preload=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/3d-models/gavc-technology-a340199b2f504896a87d8d4362c8b3bd?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" 
+</a>
+</div>
+
+
+<!!!!!Slide Show!!!!!>
+<div id="myreel"></div>
+
+<div class="paginate">
+
+≤ <a href="javascript:firstreel.navigate('back')" clasa="back" style="margin-right:200px;">back</a>  <a href="javascript:firstreel.navigate('forth')" class="forth">forth</a> ≥
+</div>
+
+</section>
+
+
+<footer class="board">
+<center>
+	<p>
+		<a href="index.html" id="neat">Home</a> | <a href="webdesign.html" id="neat">Web</a> | <a href="app-design.html" id="neat" >App</a> | <a href="arvr.html" id="neat" >AR/VR</a> | <a href="drones.html" id="neat" >Drones</a> | <a href="printing.html" id="neat">3D Printing</a> | <a href="csi.html" id="neat" >Robotics</a></p>
+<p style="font-size: 16px;">Galesburg Area Vocational Center
+	</p>
+</center>
+</footer>
+
+</div>
+</body>
+
+</html>
